@@ -1,0 +1,25 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "landing page trillo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass  sass/main.scss css/second.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass  sass/main.scss css/second.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 50 version' css/second.comp.css -o css/second.prefix.css",
+    "compress:css": "node-sass css/second.prefix.css css/second.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "author": "meet",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "concat": "^1.0.3",
+    "node-sass": "^6.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1"
+  }
+}

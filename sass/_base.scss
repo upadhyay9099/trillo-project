@@ -1,0 +1,197 @@
+:root{
+
+    --color:#eb2f64;
+    --color-light:#ff3366;
+    --color-dark:#BA265D;
+    --color-gray:rgb(192, 192, 192);
+    
+    --color-gray-light1:#faf9f9;
+    --color-gray-light2:#f4f2f2;
+    --color-gray-light3:#f0eeee;
+    --color-gray-light4:#ccc;
+
+    --color-gray-dark1:#333;
+    --color-gray-dark2:#777;
+    --color-gray-dark3:#999;
+
+    --shadow:0 2rem 6rem rgba(0,0,0,.3);
+}
+
+$break-point: 75em;
+$break-point-1100:68.75em;
+$break-point-900:56.25em;
+$break-point-600:37.5em;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+
+    box-sizing: inherit;
+}
+html{
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and(max-width:$break-point-1100) {
+        font-size:50%;
+    }
+}
+body{
+
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-gray);
+    background-image: linear-gradient(to right bottom, var(--color-light), var(--color-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
